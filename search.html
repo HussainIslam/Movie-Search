@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/style.css">
-    <title>ABC Cinema</title>
+    <title>API Search</title>
 </head>
 <body>
     <h1>ABC Cinema</h1>
@@ -11,10 +11,16 @@
         <div id="homebutton" class="navButton"><a href="index.html" class="navLink">Home</a></div>
         <div id="searchbutton" class="navButton"><a href="search.html" class="navLink">Search</a></div>
     </div>
-    <br>
-    
+
+    <form action="#" method="#" id="input_form">
+        <input type="text" placeholder="Type your keyword here" id="keyword">
+        <input type="button" value="Search" id="search">
+        <input type="button" value="Reset" id="reset">
+    </form>
+    <!--<div id="search_result"></div>-->
+    <div id="search_info"></div>
     <div id="movies"></div>
-    
-    <script src="js/script.js"></script>
+
+    <script src="js/search.js"></script>
 </body>
 </html>

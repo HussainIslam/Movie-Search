@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 20px;
+  color: goldenrod;
+}
+
+#navigation {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  background-color:black;
+}
+
+.navButton {
+  padding-left: 10px;
+  padding: 20px 20px 20px 20px;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+}
+
+.navButton :hover {
+  color: yellow;
+}
+
+#input_form{
+  margin-top: 30px;
+}
